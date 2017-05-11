@@ -36,6 +36,11 @@ android {
             shrinkResources false
         }
     }
+    allprojects {
+        repositories {
+            maven { url 'https://jitpack.io' }
+        }
+    }
 }
 
 dependencies {
